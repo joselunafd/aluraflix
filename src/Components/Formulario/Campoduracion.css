@@ -1,0 +1,19 @@
+ .campoduracion-flex {
+   display: flex;
+   align-items: center;
+ }
+
+ .campoduracion-seccion {
+   flex: 1;
+   margin: 5px 0;
+ }
+
+ .campoduracion-separador {
+   margin: 12px 5px 0;
+ }
+
+ @media screen and (min-width: 768px) {
+   .campoduracion-separador {
+     margin: 20px 6px 0;
+   }
+ }
